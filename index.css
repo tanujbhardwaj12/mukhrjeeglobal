@@ -1,0 +1,122 @@
+
+body{
+    padding: 50px;
+}
+.section-first{
+    background-image: url(Group\ 1261153820\ \(1\).png);
+}
+.first-img-class{
+    border: 1px solid red;
+    width: fit-content;
+    height: 415px;
+   margin-right: 50px;
+   
+}
+.first-img-class-1{
+    position: relative;
+    top: -20px;
+    left: 35px;
+}
+.first-img-class-2{
+    position: relative;
+    top: -65px;
+    left: -40px;
+}
+h2{
+    color: red;
+}
+.write-img .img-2{
+    margin-left: 3rem;
+}
+.first-div h1{
+    color: #333C73;
+}
+.write-img .img-div-2 {
+margin-top: 20px;
+}
+.write-img span{
+    margin-left: 15px;
+}
+/* section-second css */
+span{
+    /* display: block; */
+}
+.section-second{
+    background-color: lightgrey;
+    }
+
+.section-second-part-1{
+    text-align: center;
+}
+.section-second-part-1 h3{
+    color: #333C73;
+    font-size: 2.5rem;
+}
+.img-section span{
+    background-color: #333C73;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -28px;
+    right: -16px;
+    width: 50px;
+    height: 50px;
+    color: white;
+   text-align: center;
+   font-weight: 600;
+   padding-top: 4px;
+
+    
+   
+}
+.img-section .cards{
+    position: relative;
+    /* filter: drop-shadow(5px 5px 4px #494949); */
+
+}
+.img-section {
+    display: flex;
+}
+.img-section .cards{
+  background-color: white;
+  margin: 10px;
+
+  
+}
+.cards img,h4,p{
+    margin-left: 10px;
+}
+.img-section .cards img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 760px){
+    .img-section{
+        display: block;
+        /* text-align: center; */
+       
+    }
+    .first-div{
+        margin-top: 20px;
+    }
+    .img-section .cards{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 1203px){
+    .img-section{
+        display: block;
+        /* text-align: center; */
+    }
+    .first-div{ 
+        margin-top: 20px;
+    }
+   
+}
+/* @media only screen and (max-width: 433px){
+    .write-img{
+        text-align: unset;
+    }
+} */
+
+
