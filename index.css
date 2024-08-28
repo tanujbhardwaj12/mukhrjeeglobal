@@ -1,9 +1,13 @@
-
-body{
-    padding: 50px;
+*{
+    margin: 0;
+    padding: 0;
 }
-.section-first{
-    background-image: url(Group\ 1261153820\ \(1\).png);
+
+.first-img-class-1{
+    width: 300px;
+}
+.first-img-class-2{
+    width: 150px;
 }
 .first-img-class{
     border: 1px solid red;
@@ -69,18 +73,15 @@ span{
     
    
 }
-.img-section .cards{
-    position: relative;
-    /* filter: drop-shadow(5px 5px 4px #494949); */
 
-}
 .img-section {
     display: flex;
+  
 }
 .img-section .cards{
+    position: relative;
   background-color: white;
   margin: 10px;
-
   
 }
 .cards img,h4,p{
@@ -89,6 +90,10 @@ span{
 .img-section .cards img{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.card-1{
+    width: 250px;
+    margin-right: 50px;
 }
 @media only screen and (max-width: 760px){
     .img-section{
@@ -102,6 +107,7 @@ span{
     .img-section .cards{
         margin-top: 50px;
     }
+
 }
 @media only screen and (max-width: 1203px){
     .img-section{
@@ -112,11 +118,48 @@ span{
         margin-top: 20px;
     }
    
+   
 }
-/* @media only screen and (max-width: 433px){
-    .write-img{
-        text-align: unset;
+@media only screen and (max-width: 430px){
+
+    .first-img-class-1{
+        width: 200px;
     }
-} */
+    .first-img-class{
+        border: 1px solid red;
+        width: fit-content;
+        height: 270px;
+       /* margin-right: 30px; */
+       margin-left: 50px;
+       
+    }
+    .first-img-class-2 img{
+        width: 100px;
+    }
+    .first-img-class-2{
+        position: relative;
+        top: -55px;
+        left: -30px;
+    }
+    .img-section .cards{
+        position: relative;
+      background-color: white;
+      /* width: 200px; */
+      
+    }
+   
+    
+  
+}
 
-
+.white-space{
+    white-space: nowrap;
+}
+.img-div-1{
+    display: flex;
+    gap: 20px;
+}
+.img-div-2{
+    display: flex;
+    gap: 20px;
+}
